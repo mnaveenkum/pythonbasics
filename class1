@@ -1,0 +1,124 @@
+>>> 50
+50
+>>> 50+10
+60
+>>> 60-50
+10
+>>> -60+50
+-10
+>>> 50/3
+16.666666666666668
+>>> 10/20.00
+0.5
+>>> 10//20.4
+0.0
+>>> 50//3
+16
+>>> 50.00/3.0
+16.666666666666668
+>>> 50/10
+5.0
+>>> 50*10
+500
+>>> '50'*2
+'5050'
+>>> 10%3
+1
+>>> 10.0%3.2
+0.39999999999999947
+>>> 21%5
+1
+>>> 2**5
+32
+>>> myInt=9
+>>> myInt
+9
+>>> #variables name
+>>> #variables in python case senstive starting with letters,number,valid,but variable name cannot satrt with number,can start with underscore aprat underscore from some speciaal symbol it give error.
+>>> #reserved words can also cannot used.like if ,del ,for ,while
+>>> age=10
+>>> _age=10
+>>> age.22=22
+SyntaxError: invalid syntax
+>>> myInt=10
+>>> myFloat=20.5
+>>> mycomplex=1j
+>>> myNym=10e10
+>>> myNym
+100000000000.0
+>>> myString="max"
+>>> myString
+'max'
+>>> myString='tom'
+>>> myString
+'tom'
+>>> myFloat=myInt
+>>> myFloat
+10
+>>> #type casting
+>>> myFloat=float(myInt)
+>>> myFloat
+10.0
+>>> myInt=int(myFloat)
+>>> myInt
+10
+>>> #find out any type of variable keyword is  'type'
+>>> type(myInt)
+<class 'int'>
+>>> type(myString)
+<class 'str'>
+>>> type(myNym)
+<class 'float'>
+>>> myInt+myFloat
+20.0
+>>> #because myInt value is 10AND myFloatvalue is 10
+>>> ##user input
+>>> print("hello world")
+hello world
+>>> print(50*60)
+3000
+>>> print("50*10",50*10)
+50*10 500
+>>> print("50*10 =",50*10)
+50*10 = 500
+>>> print("helo","","world")
+helo  world
+>>> x=10
+>>> y=50
+>>> print("{0} * {1}={2}".format(x,y, x*y))
+10 * 50=500
+>>> print("hello","world",sep="--------")
+hello--------world
+>>> name="max"
+>>> print("Hello %s" % name)
+Hello max
+>>> age=print("hello %s ! are you %d uyears old" %(name,age))
+hello max ! are you 10 uyears old
+>>> print("marks= %f" % 92.5)
+marks= 92.500000
+>>> print("marks=%f.2" %92.5)
+marks=92.500000.2
+>>> print("marks=%.2f" %92.5)
+marks=92.50
+>>> value=input("enter some value")
+enter some valuehi this is naveen
+>>> value
+'hi this is naveen'
+>>> val=input("enter some")
+enter some10
+>>> val
+'10'
+>>> type(val)
+<class 'str'>
+>>> val=int(input("enter some value"))
+enter some value10
+>>> val
+10
+>>> type(val)
+<class 'int'>
+>>> #that above method to conver string to int,float,any type instead of int you put any type.
+>>> val=float(input("enter some value"))
+enter some value10
+>>> type(val)
+<class 'float'>
+>>> 
